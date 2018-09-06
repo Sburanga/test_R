@@ -6,7 +6,7 @@
 #' @return   Return the sum of the two input values.
 #' @export
 #'
-#' @examples add(3,4)
+#' @examples
 
 add <- function(x,y) {
 
