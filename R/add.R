@@ -14,5 +14,6 @@
 #   Test Package:              'Ctrl + Shift + T'
 
 add <- function(x,y) {
+  if(!is.numeric(x) | !is.numeric(y)) stop("non-numeric argument to binary operator")
   return(x+y)
 }
