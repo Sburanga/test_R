@@ -1,7 +1,7 @@
 context("add")
 
 test_that("Check types", {
-  expect_error(add("7a",5), "non-numeric argument to binary operator")
+  expect_error(add("7a",5))
   expect_equal(add(7,5), 12)
 })
 
